@@ -16,8 +16,7 @@ export const Footer: FC = () => {
                             <Logo />
                         </div>
                         <p className="text-primary opacity-50">
-                           Fast crypto exchange
-                           The average time for exchange is about 2 minutes. You can track the crypto swap progress on the exchange page.
+                           Blockdaemon's Validators provide a trusted, scalable, and secure solution for institutions looking to participate in Proof-of-Stake (PoS) networks.
                         </p>
                     </div>
                     <div>
@@ -56,7 +55,7 @@ export const Footer: FC = () => {
                         <ul>
                             <li className="mb-1">
                                 <a
-                                    href="/"
+                                    href="https://linktr.ee/reystaking"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
                                     Staking
@@ -64,7 +63,7 @@ export const Footer: FC = () => {
                             </li>
                             <li className="mb-1">
                                 <a
-                                    href="/"
+                                    href="https://linktr.ee/reystaking"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
                                     Bridge
@@ -72,10 +71,10 @@ export const Footer: FC = () => {
                             </li>
                             <li className="mb-1">
                                 <a
-                                    href="/"
+                                    href="https://linktr.ee/reystaking"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
-                                    Saka Shop
+                                    Rey Shop
                                 </a>
                             </li>
                         </ul>
@@ -83,7 +82,7 @@ export const Footer: FC = () => {
                 </S.FooterCols>
                 <div className="md:flex md:items-center md:justify-between">
                     <div className="text-primary opacity-50 text-sm mr-4">
-                        &copy; 2025 Saka.Exchange. All Rights Reserved.
+                        &copy; 2025 ReyHubc.com. All Rights Reserved.
                     </div>
                 </div>
             </Container>

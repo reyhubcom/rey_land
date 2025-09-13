@@ -37,6 +37,13 @@ export const Footer: FC = () => {
                                 >
                                     BASE
                                 </a>
+                                 <li className="mb-1">
+                                <a
+                                    href="https://linktr.ee/reystaking"
+                                    className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
+                                >
+                                    Binance
+                                </a>
                             </li>
                             <li className="mb-1">
                                 <a

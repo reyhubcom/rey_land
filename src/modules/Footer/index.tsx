@@ -16,7 +16,7 @@ export const Footer: FC = () => {
                             <Logo />
                         </div>
                         <p className="text-primary opacity-50">
-                           Blockdaemon's Validators provide a trusted, scalable, and secure solution for institutions looking to participate in Proof-of-Stake (PoS) networks.
+                           Validators Provide a Trusted, Scalable, and Secure Solution for Institutions Looking to Participate in Proof-of-Stake (PoS) Networks.
                         </p>
                     </div>
                     <div>
@@ -24,7 +24,7 @@ export const Footer: FC = () => {
                         <ul>
                             <li className="mb-1">
                                 <a
-                                    href="/"
+                                    href="https://linktr.ee/reystaking"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
                                     Eigen Layer
@@ -32,7 +32,7 @@ export const Footer: FC = () => {
                             </li>
                             <li className="mb-1">
                                 <a
-                                    href="/"
+                                    href="https://linktr.ee/reystaking"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
                                     BNB Chain
@@ -40,7 +40,7 @@ export const Footer: FC = () => {
                             </li>
                             <li className="mb-1">
                                 <a
-                                    href="/"
+                                    href="https://linktr.ee/reystaking"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
                                     SKALE
@@ -82,7 +82,7 @@ export const Footer: FC = () => {
                 </S.FooterCols>
                 <div className="md:flex md:items-center md:justify-between">
                     <div className="text-primary opacity-50 text-sm mr-4">
-                        &copy; 2025 ReyHubc.com. All Rights Reserved.
+                        &copy; 2025 ReyHub.com  All Rights Reserved.
                     </div>
                 </div>
             </Container>

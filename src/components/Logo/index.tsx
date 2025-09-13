@@ -13,9 +13,8 @@ export const Logo: FC = () => {
     return (
         <div className="shrink-0 mr-4">
             {/* Logo */}
-           <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
-<dotlottie-wc src="https://lottie.host/8814880b-6dfe-461e-83f9-5531fecf248e/jRFeIx3iu0.lottie" speed="0.5" style="width: 60px; height: 60px" mode="forward" loop autoplay></dotlottie-wc>
-                <Image srcLocal="" alt="" />
+            <a href="/" className="block" aria-label="logo">
+                <Image srcLocal="logo" alt="logo" />
             </a>
         </div>
     );

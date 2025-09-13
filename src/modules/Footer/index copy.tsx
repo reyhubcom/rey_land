@@ -16,19 +16,20 @@ export const Footer: FC = () => {
                             <Logo />
                         </div>
                         <p className="text-primary opacity-50">
-                           Fast crypto exchange
-                           The average time for exchange is about 2 minutes. You can track the crypto swap progress on the exchange page.
+                            Footer text goes here lorem ipsum dolor sit amet
+                            risus, consectetur adipiscing elit Footer text goes
+                            here lorem ipsum dolor sit amet risus, consect
                         </p>
                     </div>
                     <div>
-                        <h6 className="text-white font-medium mb-1">Buy Crypto</h6>
+                        <h6 className="text-white font-medium mb-1">Policy</h6>
                         <ul>
                             <li className="mb-1">
                                 <a
                                     href="/"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
-                                    Buy Btcoin [ BTC ]
+                                    Privacy Policy
                                 </a>
                             </li>
                             <li className="mb-1">
@@ -36,7 +37,7 @@ export const Footer: FC = () => {
                                     href="/"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
-                                    Buy Ethereum [ ETH ]
+                                    Terms of Service
                                 </a>
                             </li>
                             <li className="mb-1">
@@ -44,7 +45,7 @@ export const Footer: FC = () => {
                                     href="/"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
-                                    Buy Cosmos [ ATOM ]
+                                    Privacy Policy
                                 </a>
                             </li>
                         </ul>
@@ -59,7 +60,7 @@ export const Footer: FC = () => {
                                     href="/"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
-                                    Staking
+                                    Link 1
                                 </a>
                             </li>
                             <li className="mb-1">
@@ -67,7 +68,7 @@ export const Footer: FC = () => {
                                     href="/"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
-                                    Bridge
+                                    Link 2
                                 </a>
                             </li>
                             <li className="mb-1">
@@ -75,7 +76,7 @@ export const Footer: FC = () => {
                                     href="/"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
-                                    Saka Shop
+                                    Link 3
                                 </a>
                             </li>
                         </ul>
@@ -83,7 +84,7 @@ export const Footer: FC = () => {
                 </S.FooterCols>
                 <div className="md:flex md:items-center md:justify-between">
                     <div className="text-primary opacity-50 text-sm mr-4">
-                        &copy; 2025 Saka.Exchange. All Rights Reserved.
+                        &copy; trail-landing.com. All rights reserved.
                     </div>
                 </div>
             </Container>

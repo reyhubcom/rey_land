@@ -1,0 +1,26 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Hero } from "@modules/Hero";
+---
+
+<Layout
+    title="404 | Page not found"
+    description="The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+>
+    <main class="page-content my-20">
+        <Hero
+            heroType="center"
+            data={{
+                title: `Woops, 404`,
+                description: `The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.`,
+                buttons: [
+                    {
+                        text: "Get Back",
+                        link: "/",
+                        variant: "primary",
+                    },
+                ],
+            }}
+        />
+    </main>
+</Layout>

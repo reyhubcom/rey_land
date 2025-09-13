@@ -20,14 +20,14 @@ export const Footer: FC = () => {
                         </p>
                     </div>
                     <div>
-                        <h6 className="text-white font-medium mb-1">Blockchains</h6>
+                        <h6 className="text-white font-medium mb-1">Stake Now</h6>
                         <ul>
                             <li className="mb-1">
                                 <a
                                     href="https://linktr.ee/reystaking"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
-                                    Ethereum
+                                    Eigen Layer
                                 </a>
                             </li>
                             <li className="mb-1">
@@ -35,7 +35,7 @@ export const Footer: FC = () => {
                                     href="https://linktr.ee/reystaking"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
-                                    BASE
+                                    BNB Chain
                                 </a>
                             </li>
                             <li className="mb-1">
@@ -43,7 +43,7 @@ export const Footer: FC = () => {
                                     href="https://linktr.ee/reystaking"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
-                                    Solana
+                                    SKALE
                                 </a>
                             </li>
                         </ul>

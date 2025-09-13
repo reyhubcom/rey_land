@@ -9,7 +9,6 @@ import { Testimonials } from "@modules/Testimonials";
 
 <Layout title="Trail Landing" description="YOUR META DESCRIPTION FOR SEO">
     <main class="page-content">
-         <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=678722bd9c2b8a0012e6c83d&product=sop' async='async'></script>
         <Hero
             heroType="center"
             data={{

@@ -7,11 +7,11 @@ export const Navigation: FC = () => {
             {/* Desktop sign in links */}
             <div className="flex items-center justify-end flex-wrap grow">
                 <Button link="/signin" variant="secondary">
-                    Sign in
+                    Staking
                 </Button>
 
                 <Button link="/signup" variant="primary">
-                    Sing up
+                    Saka Shop
                 </Button>
             </div>
         </nav>

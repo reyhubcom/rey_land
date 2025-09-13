@@ -6,8 +6,8 @@ export const Navigation: FC = () => {
         <nav className="md:flex  md:grow">
             {/* Desktop sign in links */}
             <div className="flex items-center justify-end flex-wrap grow">
-                <Button link="/signin" variant="secondary">
-                    Staking
+                <Button link="/market" variant="secondary">
+                    Market
                 </Button>
 
                 <Button link="/buy" variant="primary">

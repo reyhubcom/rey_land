@@ -1,0 +1,58 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import { Button } from "@components/Button";
+import { Container } from "@components/Container";
+---
+
+<Layout
+ <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=678722bd9c2b8a0012e6c83d&product=sop' async='async'></script>
+    title="Instan Crypto Exchange"
+    description="YOUR META DESCRIPTION FOR SEO"
+>
+    <main class="page-content">
+        <section class="relative mb-20 pt-32" data-animate>
+            <Container>
+                <div class="text-center">
+                    <h1
+                        class="text-h1 md:text-h1-md lg:text-h1-lg font-bold opacity-90"
+                    >
+                        Crypto<br />Exchange
+                    </h1>
+                </div>
+
+                <div class="max-w-sm mx-auto">
+                    <div class="flex items-center my-6">
+                        <span class="border-t border-tertiary grow mr-3">
+                        </span>
+                        <div class="text-primary opacity-50">
+                            Buy, Sell, Swap
+                        </div>
+                        <span class="border-t border-tertiary grow ml-3">
+                        </span>
+                    </div>
+                    <form>
+                       <iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=true&amount=0.1&amountFiat=1500&backgroundColor=1d1d4a&darkMode=true&from=btc&fromFiat=eur&horizontal=false&isFiat&lang=en-US&link_id=537f0c2ee20bbe&locales=true&logo=false&primaryColor=00C26F&to=eth&toFiat=eth&toTheMoon=true' style="height: 356px; width: 100%; border: none"></iframe>
+                       <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
+                            
+                        </div>
+                        <div class="flex flex-wrap -mx-3 mt-6">
+                            <div class="w-full px-3">
+                                <Button link="#" asButton={true} type="submit">
+                                    Sign up</Button
+                                >
+                            </div>
+                        </div>
+                    </form>
+                    <div class="text-primary text-center mt-6">
+                        Already have account? <a
+                            href="/signin"
+                            class="text-tertiary hover: transition duration-150 ease-in-out"
+                            >Sign in</a
+                        >
+                    </div>
+                </div>
+            </Container>
+        </section>
+    </main>
+</Layout>

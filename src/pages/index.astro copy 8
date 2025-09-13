@@ -77,7 +77,39 @@ import { Testimonials } from "@modules/Testimonials";
                 ],
             }}
         />
+        <SectionHeadings
+            data={{
+                showLine: true,
+                label: "Content Image",
+                title: "Unlimited solutions",
+                description:
+                    "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            }}
+        />
+        <ImageContent
+            data={{
+                imagePosition: "right",
+                aboveTitle: "About Us",
+                title: "We are a team of professionals",
+                description:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                image: "heroImg",
+                features: [
+                    { text: "featue1" },
+                    { text: "featue2" },
+                    { text: "featue3" },
+                ],
+            }}
+        />
        
+        <SectionHeadings
+            data={{
+                showLine: true,
+                title: "Trusted by",
+                description:
+                    "Cient's around the world trust us to deliver fast, reliable, and secure services for their business.",
+            }}
+        />
         <Testimonials
             data={[
                 {

@@ -40,9 +40,9 @@ import { Testimonials } from "@modules/Testimonials";
             data={{
                 features: [
                     {
-                        text: "Ethereum",
+                        text: "Feature 1",
                         description:
-                            "The leading platform for innovative apps and blockchain networks.",
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                         icon: "react",
                     },
                     {

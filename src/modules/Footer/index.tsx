@@ -37,27 +37,6 @@ export const Footer: FC = () => {
                                 >
                                     BNB Chain
                                 </a>
-                                 <li className="mb-1">
-                                <a
-                                    href="/"
-                                    className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
-                                >
-                                    SUI
-                                    </a>
-                                     <li className="mb-1">
-                                <a
-                                    href="/"
-                                    className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
-                                >
-                                    Polygon
-                                        </a>
-                                         <li className="mb-1">
-                                <a
-                                    href="/"
-                                    className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
-                                >
-                                    Avalanche
-                                </a>
                             </li>
                             <li className="mb-1">
                                 <a

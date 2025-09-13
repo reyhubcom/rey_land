@@ -27,17 +27,13 @@ import { Container } from "@components/Container";
                     <div class="flex items-center my-6">
                         <span class="border-t border-tertiary grow mr-3">
                         </span>
-                        <div class="text-primary opacity-60">
+                        <div class="text-primary opacity-50">
                             Buy, Sell, Swap
                         </div>
                         <span class="border-t border-tertiary grow ml-3">
                         </span>
                     </div>
-
                     <form>
-
-                        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
-                        
                        <iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=true&amount=0.1&amountFiat=1500&backgroundColor=1d1d4a&darkMode=true&from=btc&fromFiat=eur&horizontal=false&isFiat&lang=en-US&link_id=537f0c2ee20bbe&locales=true&logo=false&primaryColor=00C26F&to=eth&toFiat=eth&toTheMoon=true' style="height: 356px; width: 100%; border: none"></iframe>
                        <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
                             

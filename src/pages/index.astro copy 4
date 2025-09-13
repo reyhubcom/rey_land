@@ -104,7 +104,36 @@ import { Testimonials } from "@modules/Testimonials";
                 ],
             }}
         />
-       
+        <ImageContent
+            data={{
+                imagePosition: "left",
+                aboveTitle: "About Us",
+                title: "We are a team of professionals",
+                description:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                image: "dashboard",
+                features: [
+                    { text: "featue1" },
+                    { text: "featue2" },
+                    { text: "featue3" },
+                ],
+            }}
+        />
+        <ImageContent
+            data={{
+                imagePosition: "right",
+                aboveTitle: "About Us",
+                title: "We are a team of professionals",
+                description:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                image: "heroImg",
+                features: [
+                    { text: "featue1" },
+                    { text: "featue2" },
+                    { text: "featue3" },
+                ],
+            }}
+        />
         <SectionHeadings
             data={{
                 showLine: true,

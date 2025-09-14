@@ -50,17 +50,10 @@ export const Footer: FC = () => {
                     </div>
                     <div>
                         <h6 className="text-white font-medium mb-1">
-                            Blockchain
+                            Product Links
                         </h6>
                         <ul>
                             <li className="mb-1">
-                                <a
-                                    href="https://linktr.ee/reystaking"
-                                    className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
-                                >
-                                    Ethereum
-                                </a>
-                                  <li className="mb-1">
                                 <a
                                     href="https://linktr.ee/reystaking"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"

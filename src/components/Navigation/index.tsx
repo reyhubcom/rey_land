@@ -9,8 +9,9 @@ export const Navigation: FC = () => {
                 <Button link="/market" variant="secondary">
                     Market
                 </Button>
-  <Button variant="outline-warning">Warning</Button>
-                
+
+                <Button link="/buy" variant="primary">
+                    Buy Crypto
                 </Button>
             </div>
         </nav>

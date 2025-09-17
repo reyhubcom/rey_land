@@ -10,8 +10,8 @@ export const Navigation: FC = () => {
                     Market
                 </Button>
 
-                <Button link="/buy" variant="primary">
-                     <Button variant="success">Success</Button>
+                <Button link="/buy" variant="Succes">
+                   
                     Buy Crypto
                 </Button>
             </div>

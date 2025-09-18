@@ -10,7 +10,7 @@ export const Navigation: FC = () => {
                     Market
                 </Button>
 
-               <Button variant="outlined" href="#outlined-buttons">
+               <Button variant="outlined" href="https://linktr.ee/reystaking">
                Wallet
               </Button>
             </div>

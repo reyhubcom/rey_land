@@ -40,7 +40,7 @@ export const Footer: FC = () => {
                             </li>
                             <li className="mb-1">
                                 <a
-                                    href="https://linktr.ee/reystaking"
+                                    href="/bridge"
                                     className="text-primary opacity-50 hover:opacity-100 transition duration-150 ease-in-out"
                                 >
                                     Crypto Bridge

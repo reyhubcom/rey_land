@@ -16,7 +16,7 @@ export const Footer: FC = () => {
                             <Logo />
                         </div>
                         <p className="text-primary opacity-50">
-                           Validators Provide a Trusted, Scalable, and Secure Solution for Institutions Looking to Participate in Proof-of-Stake (PoS) Networks.
+                          Fast crypto exchange the average time for exchange is about 2 minutes. You can track the crypto swap progress on the exchange page.
                         </p>
                     </div>
                     <div>
@@ -82,7 +82,7 @@ export const Footer: FC = () => {
                 </S.FooterCols>
                 <div className="md:flex md:items-center md:justify-between">
                     <div className="text-primary opacity-50 text-sm mr-4">
-                        &copy; 2025 ReyHub.com  All Rights Reserved.
+                        &copy; 2025 Saka.Exchange All Rights Reserved.
                     </div>
                 </div>
             </Container>
